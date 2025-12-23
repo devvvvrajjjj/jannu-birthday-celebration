@@ -13,19 +13,39 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `
+Happy 21st Birthday, Isha 🤍
 
-Your personalized birthday message goes here.
+I don’t say this often, but you genuinely mean a lot to me.
+You’re one of the most special people in my life,
+and I’m really grateful for you.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+You have this effortless way of making everything feel lighter.
+Your smile, your laugh, and the way you are —
+it all feels real and comforting.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+I truly think you’re the prettiest girl I’ve ever seen —
+not just because of how you look,
+but because of who you are.
+Kind, strong, and beautifully imperfect.
 
-Happy Birthday! 🎉
+Life feels better with you in it.
+Conversations feel easier,
+moments feel warmer,
+and some days feel brighter just because you exist.
 
-— [Your Name]`;
+I don’t want to put expectations or labels on today.
+I just want you to know that you matter to me, deeply,
+and I wish you nothing but happiness.
+
+May your 21s bring growth, laughter, love,
+and everything your heart quietly hopes for.
+
+Happy Birthday 🤍
+
+— Devraj
+`;
+
 
   // Handle page transitions
   useEffect(() => {
